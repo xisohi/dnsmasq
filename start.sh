@@ -15,3 +15,4 @@ wget --no-check-certificate https://raw.githubusercontent.com/vokins/yhosts/mast
 #重启dnsmasq
 restart_dhcpd
 
+
