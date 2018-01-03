@@ -1,6 +1,18 @@
 ## Last updated: 2017-12-31
 ## https://github.com/xuhui0607/hosts
 
+# Akamai Start
+address=/a248.e.akamai.net/23.201.102.89
+address=/static.ak.instagram.com/184.28.188.186
+address=/images.ak.instagram.com/184.28.188.201
+address=/passets-cdn.pinterest.com/96.7.235.57
+address=/s.pinimg.com/96.7.235.57
+address=/i.pinimg.com/96.7.235.57
+address=/v.pinimg.com/96.7.235.57
+address=/s-media-cache-ak0.pinimg.com/96.7.235.57
+address=/blogthumb.pstatic.net/23.56.25.171
+# Akamai End
+
 # Instagram Start
 address=/instagram.com/52.45.94.103
 address=/www.instagram.com/157.240.11.172
@@ -21,3 +33,7 @@ address=/scontent-hkg3-1.cdninstagram.com/31.13.95.48
 address=/scontent-hkg3-2.cdninstagram.com/157.240.15.63
 address=/scontent-sit4-1.cdninstagram.com/31.13.78.52
 # Instagram End
+
+# Ptt Start
+address=/ptt.cc/140.112.172.1
+# Ptt End
