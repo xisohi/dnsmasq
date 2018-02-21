@@ -35,6 +35,22 @@ address=/scontent-sit4-1.cdninstagram.com/31.13.78.174
 address=/scontent-sjc3-1.cdninstagram.com/157.240.22.63
 # Instagram End
 
+# tumblr
+address=/96.media.tumblr.com/52.84.48.38
+address=/97.media.tumblr.com/192.229.237.98
+address=/api.tumblr.com/119.161.8.150
+address=/assets.tumblr.com/119.161.8.200
+address=/media.tumblr.com/119.161.8.100
+address=/mx.tumblr.com/192.229.237.97
+address=/srvcs.tumblr.com/66.6.32.162
+address=/static.tumblr.com/119.161.8.100
+address=/t.umblr.com/66.6.32.162
+address=/tumblr.com/66.6.33.21
+address=/vt.tumblr.com/119.161.9.150
+address=/vtt.tumblr.com/119.161.9.100
+address=/www.tumblr.com/119.161.8.100
+# tumblr End
+
 # Ptt Start
 address=/ptt.cc/140.112.172.1
 # Ptt End
