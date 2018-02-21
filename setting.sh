@@ -10,7 +10,7 @@ sed -i '/\/dns\//d' /etc/storage/dnsmasq/dnsmasq.conf
 cat >> /etc/storage/dnsmasq/dnsmasq.conf << EOF
 addn-hosts=/etc/storage/dnsmasq/dns/hosts
 conf-dir=/etc/storage/dnsmasq/dns/conf
-conf-file=/etc/storage/dnsmasq/dns/dnsfq
+conf-file=/etc/storage/dnsmasq/dns/dnsmasq.conf
 EOF
 
 echo "* 到定时任务crontabs里写入定时执行任务"
