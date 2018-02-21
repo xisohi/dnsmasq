@@ -37,7 +37,7 @@ cat > /etc/storage/dnsmasq/dns/start.sh << EOF
 #!/bin/sh
 cd /etc/storage/dnsmasq/dns/conf
 echo "--- 下载dnsmasq规则"
-wget --no-check-certificate https://raw.githubusercontent.com/xuhui0607/dnsmasq/master/dnsmasq/dnslb -O /etc/storage/dnsmasq/dns/dnslb;sed -i "1 i\## Download：\$(date "+%Y-%m-%d %H:%M:%S")" /etc/storage/dnsmasq/dns/dnslb
+wget --no-check-certificate https://raw.githubusercontent.com/xuhui0607/dnsmasq/master/dnslb -O /etc/storage/dnsmasq/dns/dnslb;sed -i "1 i\## Download：\$(date "+%Y-%m-%d %H:%M:%S")" /etc/storage/dnsmasq/dns/dnslb
 wget --no-check-certificate https://raw.githubusercontent.com/vokins/yhosts/master/dnsmasq/ip.conf -O ip.conf;sed -i "1 i\## Download：\$(date "+%Y-%m-%d %H:%M:%S")" ip.conf
 wget --no-check-certificate https://raw.githubusercontent.com/vokins/yhosts/master/dnsmasq/union.conf -O union.conf;sed -i "1 i\## Download：\$(date "+%Y-%m-%d %H:%M:%S")" union.conf
 wget --no-check-certificate https://raw.githubusercontent.com/googlehosts/hosts/master/hosts-files/dnsmasq.conf -O dnsmasq.conf;sed -i "1 i\## Download：\$(date "+%Y-%m-%d %H:%M:%S")" dnsmasq.conf
