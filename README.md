@@ -5,7 +5,7 @@
 |                  :---:                   |                   :---:                    |             :---:              |             :---:              |
 | [![telegram-badge]][telegram-group-link] | [![telegram-badge]][telegram-channel-link] | [![wx-badge]][wx-link] | [![qq-badge]][qq-link] |
 
-[telegram-badge]: https://img.shields.io/badge/Google%20Hosts-Telegram-brightgreen.svg?style=flat-square
+[telegram-badge]: https://raw.githubusercontent.com/xuhui0607/hosts/master/img/tg.png
 [telegram-group-link]: https://t.me/googlehosts
 [telegram-channel-link]: https://t.me/googlehostsnews
 [wx-badge]: https://raw.githubusercontent.com/xuhui0607/hosts/master/img/lf.png
