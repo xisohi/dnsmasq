@@ -10,7 +10,7 @@ sed -i '/\/dns\//d' /etc/storage/dnsmasq/dnsmasq.conf
 cat >> /etc/storage/dnsmasq/dnsmasq.conf << EOF
 addn-hosts=/etc/storage/dnsmasq/dns/hosts
 conf-dir=/etc/storage/dnsmasq/dns/conf
-conf-file=/etc/storage/dnsmasq/dns/dnsmasq.conf
+conf-file=/etc/storage/dnsmasq/dns/dnslb
 EOF
 
 echo "* 到定时任务crontabs里写入定时执行任务"
@@ -28,7 +28,7 @@ sh /etc/storage/dnsmasq/dns/start.sh
 EOF
 
 echo " "
-rm -rf /etc/storage/dnsmasq/dns;mkdir -p /etc/storage/dnsmasq/dns
+rm -rf /etc/storage/dnsmasq/dns;mkdir -p /etc/storage/dnsmasq/dns/conf
 echo "·········下载start.sh、del.sh脚本···········"
 wget --no-check-certificate https://raw.githubusercontent.com/xuhui0607/dnsmasq/master/start.sh -O /etc/storage/dnsmasq/dns/start.sh
 wget --no-check-certificate https://raw.githubusercontent.com/xuhui0607/dnsmasq/master/del.sh -O /etc/storage/dnsmasq/dns/del.sh
