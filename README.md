@@ -1,6 +1,5 @@
-# hosts
-![img](https://raw.githubusercontent.com/xuhui0607/hosts/master/img/318752-14013109302178.jpg)
 【padavan固件】全自动脚本
+![img](https://raw.githubusercontent.com/xuhui0607/hosts/master/img/318752-14013109302178.jpg)
 
 setting.sh：初次运行的脚本，自动修改配置与启用dnsmasq，只需要运行一次。 start.sh：立刻下载规则的脚本 del.sh：删除所有更改，出问题了只需要运行一下即可还原 此脚本只适用于老毛子华硕固件，其他固件请勿直接使用 hiboy大的老毛子华硕固件：http://www.right.com.cn/forum/thread-161324-1-1.html 脚本参考自恩山论坛原帖：http://www.right.com.cn/forum/thread-184121-1-1.html 使用脚本
 
