@@ -1,2 +1,2 @@
 # hosts
-http://www.taopic.com/uploads/allimg/140131/318752-14013109302178.jpg
+![img](https://github.com/xuhui0607/hosts/img/318752-14013109302178.jpg)
