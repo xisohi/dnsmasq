@@ -9,7 +9,7 @@ sed -i -e '/gay\|uvwxyz\|XiaoQiang\|alfredapp\|dxomark/d' -i -e "1 i\## Download
 
 #下载dnsmasq规则
 cd /etc/storage/dnsmasq/dns/conf
-wget --no-check-certificate https://raw.githubusercontent.com/googlehosts/hosts/master/hosts-files/dnsmasq.conf -O dnsmasq.conf;sed -i "1 i\## Downloaded：$(date "+%Y-%m-%d %H:%M:%S")" dnsmasq.conf
+wget --no-check-certificate https://raw.githubusercontent.com/googlehosts/hosts/master/hosts-files/dnsmasq.conf -O /etc/storage/dnsmasq/dns/dnsmasq.conf;sed -i "1 i\## Downloaded：$(date "+%Y-%m-%d %H:%M:%S")" dnsmasq.conf
 wget --no-check-certificate https://raw.githubusercontent.com/vokins/yhosts/master/dnsmasq/ip.conf -O ip.conf;sed -i "1 i\## Downloaded：$(date "+%Y-%m-%d %H:%M:%S")" ip.conf
 wget --no-check-certificate https://raw.githubusercontent.com/vokins/yhosts/master/dnsmasq/union.conf -O union.conf;sed -i "1 i\## Downloaded：$(date "+%Y-%m-%d %H:%M:%S")" union.conf
 wget --no-check-certificate https://raw.githubusercontent.com/xuhui0607/dnsmasq/master/dnslb -O dnslb;sed -i "1 i\## Downloaded：$(date "+%Y-%m-%d %H:%M:%S")" dnslb
