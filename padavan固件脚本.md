@@ -10,7 +10,7 @@ hiboy大的老毛子华硕固件：http://www.right.com.cn/forum/thread-161324-1
 
 请先找个可以运行命令的终端控制区。如老毛子固件打开【网页终端】（Shellinabox）功能来运行命令或脚本。在【配置扩展环境】→启用【网页终端】→【打开网页终端】，进入终端界面后输入路由账号、密码即可开始。直接复制以下的一键命令执行即可。
 
-一键运行命令：mkdir -p /etc/storage/dnsmasq/dns;wget --no-check-certificate https://raw.githubusercontent.com/xuhui0607/hosts/master/setting.sh -O /etc/storage/dnsmasq/dns/setting.sh;sh /etc/storage/dnsmasq/dns/setting.sh
+一键运行命令：mkdir -p /etc/storage/dnsmasq/dns;wget --no-check-certificate https://raw.githubusercontent.com/xuhui0607/dnsmasq/master/setting.sh -O /etc/storage/dnsmasq/dns/setting.sh;sh /etc/storage/dnsmasq/dns/setting.sh
 一键还原命令：sh /etc/storage/dnsmasq/dns/del.sh
 其他命令
 
