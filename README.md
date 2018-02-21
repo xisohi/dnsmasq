@@ -18,4 +18,4 @@ setting.sh：初次运行的脚本，自动修改配置与启用dnsmasq，只需
 
 一键运行命令：mkdir -p /etc/storage/dnsmasq/dns;wget --no-check-certificate https://raw.githubusercontent.com/xuhui0607/hosts/master/setting.sh -O /etc/storage/dnsmasq/dns/setting.sh;sh /etc/storage/dnsmasq/dns/setting.sh 一键还原命令：sh /etc/storage/dnsmasq/dns/del.sh 其他命令
 
-查看规则文件dnsfq是否下载成功，命令cat /etc/storage/dnsmasq/dns/conf/dnsfq，即可看到第一行的update日期时间。 立即更新命令：sh /etc/storage/dnsmasq/dns/start.sh
+查看规则文件dnsfq是否下载成功，命令cat /etc/storage/dnsmasq/dns/conf/dnsmasq.conf，即可看到第一行的update日期时间。 立即更新命令：sh /etc/storage/dnsmasq/dns/start.sh
