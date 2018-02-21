@@ -1,7 +1,7 @@
 #!/bin/sh
 ###此脚本配置只需运行一次###
 ###只适用老毛子华硕固件###
-###一键运行命令（初次运行）： mkdir -p /etc/storage/dnsmasq/dns;wget --no-check-certificate https://raw.githubusercontent.com/xuhui0607/hosts/master/setting.sh -O /etc/storage/dnsmasq/dns/setting.sh;sh /etc/storage/dnsmasq/dns/setting.sh
+###一键运行命令（初次运行）： mkdir -p /etc/storage/dnsmasq/dns;wget --no-check-certificate https://raw.githubusercontent.com/xuhui0607/dnsmasq/master/setting.sh -O /etc/storage/dnsmasq/dns/setting.sh;sh /etc/storage/dnsmasq/dns/setting.sh
 echo "————————————开始脚本—————————————"
 echo " "
 echo "·········写入配置信息···········"
@@ -29,8 +29,8 @@ EOF
 echo " "
 rm -rf /etc/storage/dnsmasq/dns;mkdir -p /etc/storage/dnsmasq/dns
 echo "·········下载start.sh、del.sh脚本···········"
-wget --no-check-certificate https://raw.githubusercontent.com/xuhui0607/hosts/master/start.sh -O /etc/storage/dnsmasq/dns/start.sh
-wget --no-check-certificate https://raw.githubusercontent.com/xuhui0607/hosts/master/del.sh -O /etc/storage/dnsmasq/dns/del.sh
+wget --no-check-certificate https://raw.githubusercontent.com/xuhui0607/dnsmasq/master/start.sh -O /etc/storage/dnsmasq/dns/start.sh
+wget --no-check-certificate https://raw.githubusercontent.com/xuhui0607/dnsmasq/master/del.sh -O /etc/storage/dnsmasq/dns/del.sh
 echo " "
 echo "·········执行start.sh脚本，自动下载规则文件···········"
 #chmod +x start.sh && ./start.sh
