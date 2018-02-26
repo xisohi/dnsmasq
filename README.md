@@ -1,16 +1,16 @@
 【padavan固件】全自动脚本
-![img](https://raw.githubusercontent.com/xisohi/hosts/master/img/318752-14013109302178.jpg)
+![img](https://raw.githubusercontent.com/xisohi/dnsmasq/master/img/318752-14013109302178.jpg)
 
 |    [Telegram群][telegram-group-link]     | [Telegram通知频道][telegram-channel-link]  |  [微信公众号][wx-link]  |    [QQ群][qq-link]    |
 |                  :---:                   |                   :---:                    |             :---:              |             :---:              |
 | [![telegram-badge]][telegram-group-link] | [![telegram-badge]][telegram-channel-link] | [![wx-badge]][wx-link] | [![qq-badge]][qq-link] |
 
-[telegram-badge]: https://raw.githubusercontent.com/xisohi/hosts/master/img/tg.png
+[telegram-badge]: https://raw.githubusercontent.com/xisohi/dnsmasq/master/img/tg.png
 [telegram-group-link]: https://t.me/googlehosts
 [telegram-channel-link]: https://t.me/googlehostsnews
-[wx-badge]: https://raw.githubusercontent.com/xisohi/hosts/master/img/lf.png
+[wx-badge]: https://raw.githubusercontent.com/xisohi/dnsmasq/master/img/lf.png
 [wx-link]: https://mp.weixin.qq.com/ 
-[qq-badge]: https://raw.githubusercontent.com/xisohi/hosts/master/img/qq.png
+[qq-badge]: https://raw.githubusercontent.com/xisohi/dnsmasq/master/img/qq.png
 [qq-link]: http://www.qq.com/
 setting.sh：初次运行的脚本，自动修改配置与启用dnsmasq，只需要运行一次。 start.sh：立刻下载规则的脚本 del.sh：删除所有更改，出问题了只需要运行一下即可还原 此脚本只适用于老毛子华硕固件，其他固件请勿直接使用 hiboy大的老毛子华硕固件：http://www.right.com.cn/forum/thread-161324-1-1.html 脚本参考自恩山论坛原帖：http://www.right.com.cn/forum/thread-184121-1-1.html 使用脚本
 
