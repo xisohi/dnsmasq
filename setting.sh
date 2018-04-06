@@ -10,7 +10,7 @@ sed -i '/\/dns\//d' /etc/storage/dnsmasq/dnsmasq.conf
 cat >> /etc/storage/dnsmasq/dnsmasq.conf << EOF
 addn-hosts=/etc/storage/dnsmasq/dns/hosts
 conf-dir=/etc/storage/dnsmasq/dns/conf
-conf-file=/etc/storage/dnsmasq/dns/dnslb
+conf-file=/etc/storage/dnsmasq/dns/conf/dnsmasq.conf
 EOF
 
 echo "* 到定时任务crontabs里写入定时执行任务"
@@ -37,7 +37,6 @@ cat > /etc/storage/dnsmasq/dns/start.sh << EOF
 #!/bin/sh
 cd /etc/storage/dnsmasq/dns/conf
 echo "--- 下载dnsmasq规则"
-wget --no-check-certificate https://raw.githubusercontent.com/xuhui0607/dnsmasq/master/dnslb -O /etc/storage/dnsmasq/dns/dnslb;sed -i "1 i\## Download：\$(date "+%Y-%m-%d %H:%M:%S")" /etc/storage/dnsmasq/dns/dnslb
 wget --no-check-certificate https://raw.githubusercontent.com/vokins/yhosts/master/dnsmasq/ip.conf -O ip.conf;sed -i "1 i\## Download：\$(date "+%Y-%m-%d %H:%M:%S")" ip.conf
 wget --no-check-certificate https://raw.githubusercontent.com/vokins/yhosts/master/dnsmasq/union.conf -O union.conf;sed -i "1 i\## Download：\$(date "+%Y-%m-%d %H:%M:%S")" union.conf
 wget --no-check-certificate https://raw.githubusercontent.com/googlehosts/hosts/master/hosts-files/dnsmasq.conf -O dnsmasq.conf;sed -i "1 i\## Download：\$(date "+%Y-%m-%d %H:%M:%S")" dnsmasq.conf
