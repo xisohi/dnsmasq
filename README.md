@@ -20,3 +20,5 @@ setting.sh：初次运行的脚本，自动修改配置与启用dnsmasq，只需
 
 查看规则文件dnsfq是否下载成功，命令cat /etc/storage/dnsmasq/dns/dnsmasq.conf，即可看到第一行的更新日期时间。立即更新命令：sh / etc / storage / dnsmasq / dns / start .sh
 机场订阅转换工具：https://tool.oschina.net/encrypt?type=3
+免费机场来源：
+https://github.com/boysye/ssr
