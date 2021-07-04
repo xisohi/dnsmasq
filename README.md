@@ -24,3 +24,5 @@ setting.sh：初次运行的脚本，自动修改配置与启用dnsmasq，只需
 
 免费机场来源：
 https://github.com/boysye/ssr
+
+免费小火箭：https://free.shadowrocket.online/
