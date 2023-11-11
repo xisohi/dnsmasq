@@ -29,4 +29,6 @@ https://github.com/mahdibland/V2RayAggregator/tree/master/sub/splitted
 
 https://github.com/freefq/free
 
+https://github.com/anaer/Sub
+
 免费小火箭：https://free.shadowrocket.online/
