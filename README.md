@@ -25,6 +25,8 @@ setting.sh：初次运行的脚本，自动修改配置与启用dnsmasq，只需
 免费机场来源：
 https://github.com/boysye/ssr
 
+https://github.com/mianayang/chromego_merge
+
 https://github.com/yxmyxmyyy/tvbox/blob/main/cls.yaml
 
 https://github.com/mahdibland/V2RayAggregator/tree/master/sub/splitted
