@@ -23,6 +23,8 @@ setting.sh：初次运行的脚本，自动修改配置与启用dnsmasq，只需
 机场订阅转换工具：https://tool.oschina.net/encrypt?type=3
 
 免费机场来源：
+https://a.qifei-512.dynv6.net/cf4a0b60-7428-48b3-b083-c68b64f78ad0
+
 https://github.com/boysye/ssr
 
 https://github.com/mianayang/chromego_merge
